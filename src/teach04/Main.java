@@ -1,10 +1,12 @@
-package teach04;
+package reeve;
 
-public class Main {
+public class HelloFrom {
+
+    static void helloFrom() {
+        System.out.println("Hello From Nathan Reeve");
+    }
 
     public static void main(String[] args) {
-        // write your code here
-        System.out.println("Hello, my name is Claudia");
-        System.out.println("Hello Claudia! My name is Lindsey!");
+        helloFrom();
     }
 }
